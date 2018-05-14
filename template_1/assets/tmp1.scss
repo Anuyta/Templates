@@ -1,0 +1,16 @@
+@import 'reset';
+@import 'constants';
+
+@import 'blocks/header/header';
+@import 'blocks/content/content';
+@import 'blocks/footer/footer';
+
+html, body{
+	height: 100%;
+}
+
+body {
+	background-color: $bgc-body;
+	display: flex;
+	flex-direction: column;
+}
